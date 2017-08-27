@@ -1,3 +1,14 @@
+/*matching divs*/
+.bracket-matcher {
+  border-bottom: 1px solid lime;
+  position: absolute;
+  border: 1px solid rgba(0, 255, 0, 0.7);
+  background-color: rgba(0, 255, 0, 0.3);
+}
+/*divs*/
+div {
+  border: solid 1px black;
+}
 /*body*/
 body {
   font-family: Georgia;
@@ -7,94 +18,5 @@ body {
 .header {
   font-family: Verdana;
   font-size: 14px;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: solid 1px black;
-  padding-bottom: 10px;
-}
-/*logo*/
-.header .left-header {
-  align-self: stretch;
-  display: inline-flex;
-}
-.header .left-header img {
-  align-self: center;
-  padding-left: 20px;
-}
-.header .left-header h1 {
-  color: MediumAquamarine;
-  font-size: 14px;
-  align-self: center;
-  padding-left: 10px;
-}
-/*navigation*/
-.header nav {
-  display: inline-block;
-  align-self: center;
-  padding-right: 20px;
-}
-.header span {
-  padding: 0 10px;
-}
-.header a {
-  color: black;
-
-}
-/*main content container*/
-.main-content-cont {
-  width: 1232px;
-  margin: 0 auto 78px auto;
-
-  display: flex;
-  flex-wrap: wrap;
-}
-/*columns*/
-.column-large {
-  width: 630px;
-  flex-direction: column;
-  margin-right: 32px;
-}
-
-.first-story {
-
-}
-.image {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-  justify-content: center;
-  background-repeat: no-repeat;
-  position: fixed;
-  width: 630px;
-  padding-left: 0;
-  height: 300px;
-  margin-top: 10px;
-}
-.image h1 {
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  padding-top: 30px;
-}
-.image p {
-  font-size: 17px;
-  font-weight: normal;
-  color: black;
-  position: absolute;
-  margin-top: 75px;
-  padding-top: 20px;
-}
-.second-story {
-
-}
-h2 {
-  font-size: 30px;
-  color: black;
-}
-.gen-image {
-
-}
-.column-medium {
-  width: 300px;
-}
-.column-small {
-  width: 240px;
+  
 }
