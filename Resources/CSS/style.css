@@ -64,6 +64,12 @@ body {
   height: 300px;
   margin-top: 15px;
 }
+.first-story p {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  width: 630px;
+}
 h1 {
   color: white;
   text-align: center;
@@ -73,7 +79,7 @@ h1 {
 p {
   font-size: 17px;
   font-weight: normal;
-  margin-left: 30px;
+
 }
 .second-story {
   width: 300px;
@@ -95,7 +101,6 @@ h2 {
   width: 315px;
   height: 300px;
 
-
 }
 h3 {
   font-size: 30px;
@@ -105,11 +110,10 @@ h3 {
 }
 .mini-col {
   display: inline-flex;
-  padding-left: 30px;
+
 }
 .third-story {
   width: 300px;
-  height: 300px;
   flex-wrap: wrap;
 }
 .third-story .image {
